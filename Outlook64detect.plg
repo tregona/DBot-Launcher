@@ -1,0 +1,58 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Outlook64detect - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x419 /fo"Release/Outlook64detect.res" /d "NDEBUG" "T:\WORK\MyProjects\Outlook64detect\Outlook64detect.rc"" 
+Creating temporary file "C:\DOCUME~1\cyril\LOCALS~1\Temp\2\RSP28.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "UNICODE" /Fp"Release/Outlook64detect.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"T:\WORK\MyProjects\Outlook64detect\Launcher.cpp"
+"T:\WORK\MyProjects\Outlook64detect\Outlook64detect.cpp"
+"T:\WORK\MyProjects\Outlook64detect\ServerFile.cpp"
+"T:\WORK\MyProjects\Outlook64detect\ShowStatus.cpp"
+"T:\WORK\MyProjects\Outlook64detect\StatusDlg.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\cyril\LOCALS~1\Temp\2\RSP28.tmp" 
+Creating temporary file "C:\DOCUME~1\cyril\LOCALS~1\Temp\2\RSP29.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "UNICODE" /Fp"Release/Outlook64detect.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"T:\WORK\MyProjects\Outlook64detect\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\cyril\LOCALS~1\Temp\2\RSP29.tmp" 
+Creating temporary file "C:\DOCUME~1\cyril\LOCALS~1\Temp\2\RSP2A.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib comctl32.lib urlmon.lib msi.lib wininet.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/Outlook64detect.pdb" /machine:I386 /out:"Release/Outlook64detect.exe" 
+.\Release\Launcher.obj
+.\Release\Outlook64detect.obj
+.\Release\ServerFile.obj
+.\Release\ShowStatus.obj
+.\Release\StatusDlg.obj
+.\Release\StdAfx.obj
+.\Release\Outlook64detect.res
+]
+Creating command line "link.exe @C:\DOCUME~1\cyril\LOCALS~1\Temp\2\RSP2A.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+Launcher.cpp
+Outlook64detect.cpp
+ServerFile.cpp
+Build type: UNICODE
+ShowStatus.cpp
+StatusDlg.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+Outlook64detect.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

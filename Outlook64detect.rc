@@ -1,0 +1,169 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Russian resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
+#ifdef _WIN32
+LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
+#pragma code_page(1251)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+    "Outlook64detect2.rc\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG1 DIALOG DISCARDABLE  0, 0, 186, 90
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,129,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,129,24,50,14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_DIALOG1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 83
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// 24
+//
+
+1                       24      MOVEABLE PURE   "common/XPTHEMES.XML"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_STR_GREETINGS       "TotalDiscovery Launcher starts working ..."
+    IDS_STR_LOOKING_FOR_OUTLOOK64 "Looking for Outlook 64bit ..."
+    IDS_STR_OUTLOOK64_FOUND "Outlook 64bit is detected"
+    IDS_STR_OUTLOOK64_NOT_FOUND "Outlook 64bit is not detected"
+    IDS_STR_LOOKING_FOR_LOCAL_FILE "Looking for local tool copy ..."
+    IDS_STR_LOCAL_FILE_FOUND "Local copy of DiscoveryBOT is found"
+    IDS_STR_LOCAL_FILE_NOT_FOUND "Local copy of DiscoveryBOT is not found"
+    IDS_STR_ACCESSING_TO_SITE "Accessing to TotalDiscovery site ..."
+    IDS_STR_ACCESS_SITE_ERROR "Error accessing DiscoveryBOT tool"
+    IDS_STR_DOWNLOAD_FILE   "Downloading DiscoveryBOT tool ..."
+    IDS_STR_DOWNLOAD_ERROR  "Error downloading DiscoveryBOT tool"
+    IDS_STR_START_FILE      "Starting DiscoveryBOT tool ..."
+    IDS_STR_START_FILE_ERROR "Error starting DiscoveryBOT tool"
+    IDS_STR_EXIT            "Exiting ..."
+    IDS_STR_EXIT_BY_USER    "Interrupted by user"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_STR_RETRY_QUESTION  "Do you want to retry?"
+    IDS_STR_WINDOW_TITLE    "TotalDiscovery Launcher"
+    IDS_STR_LOCAL_FILE_IS_VALID "Local file is valid"
+    IDS_STR_LOCAL_FILE_IS_NOT_VALID "Local file is not valid"
+    IDS_STR_DOWNLOAD_SUCCESS "DiscoveryBOT successfully downloaded"
+    IDS_STR_START_FILE_SUCCESS "DiscoveryBOT successfully launched"
+    IDS_STR_EXAMINING_LOCAL_FILE "Found local copy. Examining ..."
+END
+
+#endif    // Russian resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BACKGROUND          BITMAP  DISCARDABLE     "res\\Bitmap_131.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_MAINICON            ICON    DISCARDABLE     "res\\mainicon.ico"
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
